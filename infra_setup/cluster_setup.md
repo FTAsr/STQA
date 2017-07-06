@@ -1,5 +1,4 @@
-# README- DEEP LEARNING ENVIRONMENT SETUP META-GUIDE
-
+# Deep Learning Environment Setup Guide for IU Clusters
 
 Below are instructions on how to set up Deep Learning environments on 
 hardware available at IU, namely
