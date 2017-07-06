@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+#SBATCH --job-name=test
+#SBATCH --output=test_%j.out
+#
+#SBATCH --ntasks=1
+#SBATCH --gres=gpu:1
+#
+
+module load cuda
+module load cudnn
+module load anaconda
+
+# Uncomment line below to dump environment variables
+#env
+
+echo -e "\n\n********** Testing cpu"
+THEANO_FLAGS="device=cpu" python theano-test.py
+
+echo -e "\n\n********** Testing gpu"
+THEANO_FLAGS="device=cuda" python theano-test.py
