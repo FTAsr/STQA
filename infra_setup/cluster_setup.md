@@ -6,6 +6,9 @@ hardware available at IU, namely
 - Futuresystems
 - BigRed2
 
+For instructions on how to setup the environment on your own ubuntu PC, 
+you might want to use [this](https://github.com/agent-jay/dl_setup_metaguide)
+
 ## Futuresystems
 
 Website:
