@@ -105,7 +105,7 @@ are doing, how much data storage you need, etc.
 
 ### Instructions to setup Anaconda environment for DL
 
-#### For latest version of Tensorflow (1.2) and Keras:
+#### For Python 3.5, Tensorflow 1.2 and latest Keras build:
 
 ```
 ssh <username>@juliet.futuresystems.org
@@ -131,13 +131,15 @@ repositories if you'd like them to work together, flawlessly and on the GPU. The
 the tensorflow-gpu package from conda did work, but Keras didn't recognize it.
 Even the Tensorflow official docs suggest using pip, so that's the safest option. 
 
-In the event that you want to use a newer version (latest as of the time of writing is
-TF 1.2), use the same instructions above but change the tensorflow build location
-as shown [here](https://www.tensorflow.org/install/install_linux)
+In the event that you want to use a newer version of TF(latest as of the time of writing is
+TF 1.2) or one compiled for a different version of Python, use the same instructions above
+but change the tensorflow build location as shown [here](https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package)
+
+TF docs for [installing on Anaconda](https://www.tensorflow.org/install/install_linux#installing_with_anaconda)
 
 #### For older version of Tensorflow (0.11):
 
-The older build of Tensorflow was needed for 
+Python (3.5) and an older build of Tensorflow was needed for BiDAF, so here are the instructions for those.
 
 ```
 ssh <username>@juliet.futuresystems.org
