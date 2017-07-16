@@ -115,7 +115,7 @@ module load anaconda cuda cudnn
 conda create --name dlnew python=3.5 python
 source activate dlnew #switch to dlnew anaconda environment
 hash -r #if the new env still loads old python version
-pip install --ignore-installed --upgrade://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.2.0-cp35-cp35m-linux_x86_64.whl
+pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.2.0-cp35-cp35m-linux_x86_64.whl
 pip install git+git://github.com/fchollet/keras.git
 conda install pygpu
 #switch keras backend to tensorflow (or theano if needed)
