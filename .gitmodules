@@ -1,0 +1,3 @@
+[submodule "question_answering/bi-att-flow"]
+	path = question_answering/bi-att-flow
+	url = git@github.com:agent-jay/bi-att-flow.git
