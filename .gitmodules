@@ -1,3 +1,6 @@
 [submodule "question_answering/bi-att-flow"]
 	path = question_answering/bi-att-flow
 	url = git@github.com:agent-jay/bi-att-flow.git
+[submodule "question_generation/nqg_learningtoask"]
+	path = question_generation/nqg_learningtoask
+	url = git@github.com:agent-jay/nqg.git
