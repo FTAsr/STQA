@@ -64,7 +64,8 @@ th translate.lua -model model/6B.300d.600rnn_epoch15_25.99.t7 -config config-tra
 - [tds](https://github.com/torch/tds)- Install with luarocks
 
 For more instructions on installation and how to download embedding files,
-refer to the submodule's [README]
+refer to the submodule's
+[README](question_generation/nqg_learningtoask/sentence/README.md)
 
 ## Question Answering
 
