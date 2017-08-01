@@ -65,7 +65,7 @@ th translate.lua -model model/6B.300d.600rnn_epoch15_25.99.t7 -config config-tra
 
 For more instructions on installation and how to download embedding files,
 refer to the submodule's
-[README](question_generation/nqg_learningtoask/sentence/README.md)
+[README](https://github.com/agent-jay/nqg/blob/master/sentence/README.md)
 
 ## Question Answering
 
