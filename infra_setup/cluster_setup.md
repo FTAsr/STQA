@@ -146,7 +146,7 @@ ssh <username>@juliet.futuresystems.org
 srun -p romeo -N 1 --gres=gpu:1 --pty bash #interactive mode to install software
 #now in romeo compute node eg. r001
 module load anaconda cuda cudnn
-conda create --name dlnew python=3.5 python
+conda create --name dlold python=3.5 python
 source activate dlold #switch to dlold anaconda environment
 hash -r #if the new env still loads old python version
 #https://stackoverflow.com/a/41193676
