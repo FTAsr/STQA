@@ -49,10 +49,13 @@ questions from a file containing answers in the following format:
 - lower case
 
 config-trans contains generation options including the file containing answer 
-sentences.
+sentences. 
+
+Below is a sample command for using this script.
 
 ```
-th translate.lua -model model/<model file name> -config config-trans-new
+cd question_generation/nqg_learningtoask/sentence
+th translate.lua -model model/6B.300d.600rnn_epoch15_25.99.t7 -config config-trans
 ```
 
 ### Requirements
