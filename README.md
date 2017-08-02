@@ -63,8 +63,8 @@ th translate.lua -model model/6B.300d.600rnn_epoch15_25.99.t7 -config config-tra
 - [Torch7](https://github.com/torch/torch7)
 - [tds](https://github.com/torch/tds)- Install with luarocks
 
-For more instructions on installation and how to download embedding files,
-refer to the submodule's
+For more instructions on installation , how to download embedding files, as
+well as training models refer to the submodule's
 [README](https://github.com/agent-jay/nqg/blob/master/sentence/README.md)
 
 ## Question Answering
