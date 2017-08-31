@@ -167,7 +167,7 @@ All queries can be sent to:
 - sciapt@iu.edu
 For Tensorflow, GPU computing and other package related info (also contacted via the above mailid):
 
-- Cicada 
+- Cicada Brokaw Dennis
 - Abhinav Thota
 
 Specs:
@@ -178,4 +178,8 @@ Specs:
 - Limitations on compute and storage
 - Lots of red-tape involved in getting new software
 
-In the time I spent getting the required packages on BigRed2, I found that
+There are two options to setup the environment:
+- load the anaconda module and install the tensorflow-gpu package
+- use singularity containers
+
+Neither of these have worked for me. YMMV.
